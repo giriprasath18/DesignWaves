@@ -385,7 +385,7 @@
   height: 200px;
   margin:auto;
   position: relative;
-  width: 90%;
+  width: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -436,9 +436,9 @@
   width: 100%;
   transition: transform 1s;
 }
-.slide-img:hover{
+/* .slide-img:hover{
   transform: translateZ(20px);
-}
+} */
 .slider::before, 
 .slider::after{
   background: -webkit-linear-gradient(to right, rbga(255,255,255,1) 0%,

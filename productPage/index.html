@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designwaves - Product</title>
+    <link rel="icon" href="asset/Favicon.png">
+    <link rel="stylesheet" href="productStyle.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <p class="offer"><marquee behavior="scroll" direction="left">Enjoy 30% OFF Your Entire Purchase &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Enjoy 30% OFF Your Entire Purchase &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;Enjoy 30% OFF Your Entire Purchase</marquee></p>
+        <div class="logo-area">
+            <span class="main-logo"><a href="home.html"><img  src="asset/logo.png" alt=""></a></span>
+            <ul class="link-area">
+                <a href="home.html"><li class="hover-underline-animation">Home</li></a>
+                <a href=""><li class="hover-underline-animation">Shop</li></a>
+                <!-- <a href="" class="categories"><button >Categories</li>
+                <div class="dropdown-options">
+                    <a href="#">Sport</a>
+                    <a href="#">Love</a>
+                    <a href="#">Anime</a>
+                    <a href="#">Devotion</a>
+                    <a href="#">Innovation</a>
+                    <a href="#">See all</a>
+                  </div>
+                </a> -->
+                <div class="dropdown">
+                    <a href="#" class="categories" ><span  class="hover-underline-animation" style="font-weight: 500;">Categories</span></a>
+                    <div class="dropdown-options">
+                      <a href="#">Anime</a>
+                      <a href="#">Sports</a>
+                      <a href="#">Gaming</a>
+                      <a href="#">Abstract</a>
+                      <a href="#">Music</a>
+                      <a href="#">Movie & TV</a>
+                      <a href="#">Quotes</a>
+                      <a href="#">Space</a>
+                    </div>
+                  </div>
+                <a href=""><li class="hover-underline-animation">Contact us</li></a>
+                
+            </ul>
+
+        
+          
+           
+
+                <!-- <div class="searchFlex"> -->
+                    
+                   
+                     <div class="iconarea">
+
+
+                    <!-- <input id="myDIV" type="search" name="" id=""> -->
+                     <svg onclick="myFunction()" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.3135 25.8654L14.8923 16.4442C14.1423 17.0634 13.2798 17.548 12.3048 17.898C11.3298 18.248 10.3212 18.423 9.27886 18.423C6.71511 18.423 4.54534 17.5354 2.76954 15.76C0.993735 13.9847 0.105835 11.8154 0.105835 9.25236C0.105835 6.68926 0.99351 4.51925 2.76886 2.74232C4.54421 0.965423 6.71344 0.076973 9.27654 0.076973C11.8396 0.076973 14.0096 0.964875 15.7865 2.74067C17.5635 4.51648 18.4519 6.68625 18.4519 9.25C18.4519 10.3211 18.2721 11.3442 17.9125 12.3192C17.5529 13.2942 17.073 14.1423 16.4731 14.8635L25.8942 24.2846L24.3135 25.8654ZM9.27886 16.1731C11.2116 16.1731 12.8486 15.5024 14.1899 14.1611C15.5313 12.8197 16.202 11.1827 16.202 9.25C16.202 7.3173 15.5313 5.68027 14.1899 4.33892C12.8486 2.99757 11.2116 2.3269 9.27886 2.3269C7.34616 2.3269 5.70914 2.99757 4.36779 4.33892C3.02646 5.68027 2.3558 7.3173 2.3558 9.25C2.3558 11.1827 3.02646 12.8197 4.36779 14.1611C5.70914 15.5024 7.34616 16.1731 9.27886 16.1731Z" fill="black"/>
+                    </svg>
+                <!-- </div> -->
+                
+                    
+            
+                    
+                <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 26.4903L13.3442 25.0019C10.8577 22.7461 8.80145 20.8077 7.17548 19.1865C5.54952 17.5654 4.26108 16.1226 3.31013 14.8581C2.35915 13.5937 1.69473 12.4404 1.31685 11.3981C0.93895 10.3558 0.75 9.29807 0.75 8.225C0.75 6.09617 1.46779 4.31398 2.90336 2.8784C4.33894 1.44283 6.12114 0.725037 8.24996 0.725037C9.55959 0.725037 10.7971 1.0313 11.9625 1.64383C13.1278 2.25633 14.1403 3.13469 15 4.27891C15.8596 3.13469 16.8721 2.25633 18.0375 1.64383C19.2028 1.0313 20.4403 0.725037 21.75 0.725037C23.8788 0.725037 25.661 1.44283 27.0966 2.8784C28.5321 4.31398 29.2499 6.09617 29.2499 8.225C29.2499 9.29807 29.061 10.3558 28.6831 11.3981C28.3052 12.4404 27.6408 13.5937 26.6898 14.8581C25.7389 16.1226 24.4528 17.5654 22.8317 19.1865C21.2105 20.8077 19.1519 22.7461 16.6557 25.0019L15 26.4903ZM15 23.45C17.4 21.2904 19.375 19.4394 20.925 17.8971C22.475 16.3548 23.7 15.0149 24.6 13.8774C25.5 12.7399 26.125 11.7298 26.475 10.8471C26.825 9.96441 27 9.09037 27 8.225C27 6.725 26.5 5.475 25.5 4.475C24.5 3.475 23.25 2.975 21.75 2.975C20.5653 2.975 19.4706 3.31106 18.4658 3.98319C17.461 4.65529 16.6654 5.59039 16.0788 6.78849H13.9211C13.325 5.58079 12.5269 4.64328 11.5269 3.97595C10.5269 3.30865 9.43459 2.975 8.24996 2.975C6.75959 2.975 5.51199 3.475 4.50716 4.475C3.50236 5.475 2.99996 6.725 2.99996 8.225C2.99996 9.09037 3.17496 9.96441 3.52496 10.8471C3.87496 11.7298 4.49996 12.7399 5.39996 13.8774C6.29996 15.0149 7.52496 16.3524 9.07496 17.8899C10.625 19.4274 12.6 21.2808 15 23.45Z" fill="black"/>
+                    </svg>
+                    
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.03461 22.9385C7.30961 21.9923 8.69855 21.2452 10.2014 20.6972C11.7043 20.1491 13.3038 19.875 15 19.875C16.6961 19.875 18.2956 20.1491 19.7985 20.6972C21.3014 21.2452 22.6903 21.9923 23.9653 22.9385C24.898 21.9135 25.637 20.727 26.1822 19.3789C26.7274 18.0308 27 16.5712 27 15C27 11.675 25.8312 8.84375 23.4937 6.50625C21.1562 4.16875 18.325 3 15 3C11.675 3 8.84371 4.16875 6.50621 6.50625C4.16871 8.84375 2.99996 11.675 2.99996 15C2.99996 16.5712 3.27256 18.0308 3.81776 19.3789C4.36296 20.727 5.10191 21.9135 6.03461 22.9385ZM15.0004 16.125C13.6309 16.125 12.4759 15.6549 11.5356 14.7149C10.5952 13.7748 10.125 12.62 10.125 11.2505C10.125 9.88093 10.595 8.72598 11.5351 7.7856C12.4752 6.84523 13.63 6.37504 14.9995 6.37504C16.369 6.37504 17.524 6.84508 18.4644 7.78515C19.4047 8.72525 19.8749 9.88005 19.8749 11.2496C19.8749 12.6191 19.4049 13.774 18.4648 14.7144C17.5247 15.6548 16.3699 16.125 15.0004 16.125ZM15 29.25C13.0211 29.25 11.1649 28.8778 9.43125 28.1336C7.6976 27.3894 6.18943 26.3759 4.90673 25.0932C3.62405 23.8105 2.6106 22.3024 1.86638 20.5687C1.12212 18.8351 0.75 16.9789 0.75 15C0.75 13.0212 1.12212 11.1649 1.86638 9.43129C2.6106 7.69764 3.62405 6.18946 4.90673 4.90676C6.18943 3.62409 7.6976 2.61064 9.43125 1.86641C11.1649 1.12216 13.0211 0.750038 15 0.750038C16.9788 0.750038 18.8351 1.12216 20.5687 1.86641C22.3023 2.61064 23.8105 3.62409 25.0932 4.90676C26.3759 6.18946 27.3893 7.69764 28.1336 9.43129C28.8778 11.1649 29.2499 13.0212 29.2499 15C29.2499 16.9789 28.8778 18.8351 28.1336 20.5687C27.3893 22.3024 26.3759 23.8105 25.0932 25.0932C23.8105 26.3759 22.3023 27.3894 20.5687 28.1336C18.8351 28.8778 16.9788 29.25 15 29.25ZM15 27C16.3538 27 17.6591 26.7822 18.9158 26.3466C20.1726 25.9111 21.2885 25.3019 22.2635 24.5192C21.2885 23.7654 20.187 23.1779 18.9591 22.7567C17.7312 22.3356 16.4115 22.125 15 22.125C13.5884 22.125 12.2663 22.3331 11.0336 22.7495C9.80089 23.1658 8.70185 23.7558 7.73648 24.5192C8.71148 25.3019 9.82735 25.9111 11.0841 26.3466C12.3408 26.7822 13.6461 27 15 27ZM15 13.875C15.7461 13.875 16.3702 13.6241 16.8721 13.1222C17.374 12.6202 17.625 11.9962 17.625 11.25C17.625 10.5039 17.374 9.8798 16.8721 9.37785C16.3702 8.87593 15.7461 8.62497 15 8.62497C14.2538 8.62497 13.6298 8.87593 13.1278 9.37785C12.6259 9.8798 12.3749 10.5039 12.3749 11.25C12.3749 11.9962 12.6259 12.6202 13.1278 13.1222C13.6298 13.6241 14.2538 13.875 15 13.875Z" fill="black"/>
+                    </svg>
+                    
+                <svg width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.46155 29.25C2.70385 29.25 2.0625 28.9875 1.5375 28.4625C1.0125 27.9375 0.75 27.2961 0.75 26.5384V9.46159C0.75 8.70389 1.0125 8.06254 1.5375 7.53754C2.0625 7.01254 2.70385 6.75004 3.46155 6.75004H6.375V6.37504C6.375 4.82119 6.92404 3.49523 8.02211 2.39715C9.12016 1.29908 10.4461 0.750038 12 0.750038C13.5538 0.750038 14.8798 1.29908 15.9778 2.39715C17.0759 3.49523 17.6249 4.82119 17.6249 6.37504V6.75004H20.5384C21.2961 6.75004 21.9374 7.01254 22.4624 7.53754C22.9874 8.06254 23.2499 8.70389 23.2499 9.46159V26.5384C23.2499 27.2961 22.9874 27.9375 22.4624 28.4625C21.9374 28.9875 21.2961 29.25 20.5384 29.25H3.46155ZM3.46155 27H20.5384C20.6538 27 20.7596 26.9519 20.8557 26.8558C20.9519 26.7596 21 26.6538 21 26.5384V9.46159C21 9.34619 20.9519 9.2404 20.8557 9.14423C20.7596 9.04808 20.6538 9 20.5384 9H17.6249V12.375C17.6249 12.6943 17.5172 12.9616 17.3019 13.1769C17.0865 13.3923 16.8192 13.5 16.5 13.5C16.1807 13.5 15.9134 13.3923 15.6981 13.1769C15.4827 12.9616 15.375 12.6943 15.375 12.375V9H8.62492V12.375C8.62492 12.6943 8.51724 12.9616 8.30186 13.1769C8.08649 13.3923 7.81919 13.5 7.49996 13.5C7.18074 13.5 6.91344 13.3923 6.69806 13.1769C6.48269 12.9616 6.375 12.6943 6.375 12.375V9H3.46155C3.34615 9 3.24036 9.04808 3.14419 9.14423C3.04804 9.2404 2.99996 9.34619 2.99996 9.46159V26.5384C2.99996 26.6538 3.04804 26.7596 3.14419 26.8558C3.24036 26.9519 3.34615 27 3.46155 27ZM8.62492 6.75004H15.375V6.37504C15.375 5.43464 15.0476 4.63704 14.3928 3.98224C13.738 3.32741 12.9404 3 12 3C11.0596 3 10.262 3.32741 9.60716 3.98224C8.95234 4.63704 8.62492 5.43464 8.62492 6.37504V6.75004Z" fill="black"/>
+                    </svg>
+            </div>
+        </div>
+        
+    </header>
+
+    <nav class="product-page">
+        <div class="product-container">
+            <div class="product-main-img">
+                <img src="asset/MockUp/Mockup 1.jpg" alt="">
+            </div>
+            <div class="product-mul-img">
+                <div class="product-mul"><img src="asset/MockUp/Mockup 2.jpg" alt=""></div>
+                <div class="product-mul"><img src="asset/MockUp/Mockup 3.jpg" alt=""></div>
+                <div class="product-mul"><img src="asset/MockUp/Mockup 4.jpg" alt=""></div>
+                <div class="product-mul"><img src="asset/MockUp/Mockup 5.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="product-details">
+                <!-- <p>Home / Bestseller /  Guardian's Resolve Tanjiro Kamado</p> -->
+                <div class="name-price">
+                    <p class="product-name">Guardian's Resolve Tanjiro Kamado</p>
+                    <p class="product-price">₹1,999 &nbsp;<span>₹4,999</span></p>
+                    <p class="product-desc">Prices shown are inclusive/exclusive of taxes, as applicable</p>
+                </div>
+                <div class="size">
+                    <div class="size-txt">Size</div>
+                    <div class="size-btn">
+                    <button>12X16</button>
+                    <button>16X20</button>
+                    <button>20X24</button>
+                    </div>
+                </div>
+                <div class="size">
+                    <div class="size-txt">Material</div>
+                    <div class="size-btn">
+                    <button>Canvas</button>
+                    <!-- <button>White</button> -->
+                    </div>
+                </div>
+
+                <div class="bottom-points">
+                    <div class="four-points">
+                       <li>Complimentary Shipping within 7-10 Business Days</li>
+                       <li> 4-Layer Secure Packaging for Safe Delivery</li>
+                        <li>Secure Payments Accepted via XXXX</li>
+                        <li>Convenient Cash on Delivery for Partial Payments</li>
+                    </div>
+                    <div class="quantity-cart">
+                        <button class="qty-btn">2</button>
+                        <button class="cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="buy-btn">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+                
+        </div>
+    </nav>
+
+    <div class="selected-product">
+        <div class="passage">
+            <p class="p1">Product  Description</p>
+            <p class="p2">Immerse yourself in the world of Demon Slayer with this stunning poster featuring Tanjiro Kamado, the determined and compassionate protagonist of the hit anime series. Rendered in vivid detail, Tanjiro stands ready for battle, wielding his iconic sword with fierce determination.</p>
+            <br>
+            <p class="p3">Whether you're a dedicated fan of Demon Slayer or simply appreciate captivating artwork, this poster is sure to make a striking addition to any anime enthusiast's collection.</p>
+        </div>
+
+        <!-- FAQ -->
+        <div class="faq-container-two">
+            <div class="faqtwo">
+                <div class="question-two">  
+                    <p class="faq-question-two">Shipping Policy</p>
+                    <span class="plus-two">&plus;</span>
+                </div>
+                <div class="answer-two">
+                    <p class="ans-p-two">
+                        Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                    </p>
+                </div>
+            </div>
+            <div class="faqtwo">
+                <div class="question-two">  
+                    <p class="faq-question-two">Returns & Exchanges Policy</p>
+                    <span class="plus-two">&plus;</span>
+                </div>
+                <div class="answer-two">
+                    <p class="ans-p-two">
+                        Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                    </p>
+                </div>
+            </div>
+            <div class="blink-flex">
+                <div class="blink"></div>
+                <div class="blink-para">Limited stock remaining, only 3 units available</div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+    <!-- As home -->
+
+
+    <div class="container-2">
+        <p class="new-arrivals">Explore Our Most Popular Posters!</p>
+        <button class="seeMore-btn">See more</button>
+    </div>
+    <span class="bottom-line">Discover the posters that are flying off the shelves and delighting our customers</span>
+
+    <div class="container-3">
+        <div>
+            
+            <img src="asset/9.png" alt="">
+            <a href="">
+            <p class="anime-name">Guardian's Resolve</p>
+            <p class="character-name">Tanjiro Kamado</p>
+            <p class="price">From ₹1,999 <span class="discount">₹4,999</span></p>
+            </a>
+        </div>
+        <div>
+           
+            <img src="asset/9.png" alt="">
+            <a href="">
+            <p class="anime-name">Guardian's Resolve</p>
+            <p class="character-name">Tanjiro Kamado</p>
+            <p class="price">From ₹1,999 <span class="discount">₹4,999</span></p>
+            </a>
+        </div>
+        <div>
+            <img src="asset/9.png" alt="">
+            <a href=""> 
+            <p class="anime-name">Guardian's Resolve</p>
+            <p class="character-name">Tanjiro Kamado</p>
+            <p class="price">From ₹1,999 <span class="discount">₹4,999</span></p>
+            </a>
+        </div>
+        <div>
+            <img src="asset/9.png" alt="">
+            <a href="">
+            <p class="anime-name">Guardian's Resolve</p>
+            <p class="character-name">Tanjiro Kamado</p>
+            <p class="price">From ₹1,999 <span class="discount">₹4,999</span></p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Reviews -->
+
+    <div>
+        <p class="quality-title">Hear What Our Customers Have to Say</p>
+        <p class="quality-desc">Discover stories of artistic inspiration and personal expression from our beloved customers</p>
+    </div>
+    <div class="container-5-flex">
+        <div class="container-5">
+            <img class="img-review" src="asset/1.png" alt="">
+            <div  class="name-section">
+                <p class="name">Sedhu Raman </p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <!-- <span><img src="asset/Vector.png" alt=""></span> -->
+                <p class="comment">Absolutely in love with the poster I purchased! The colors are vibrant and the print quality is top-notch. It's the perfect addition to my home decor and always gets compliments from guests</p>
+                <a href="#" class="view-product">View product &gt;</a>
+            </div>
+        </div>
+    
+         <div class="container-5">
+        <img class="img-review" src="asset/1.png" alt="">
+        <div  class="name-section">
+            <p class="name">Sedhu Raman </p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <!-- <span><img src="asset/Vector.png" alt=""></span> -->
+            <p class="comment">Absolutely in love with the poster I purchased! The colors are vibrant and the print quality is top-notch. It's the perfect addition to my home decor and always gets compliments from guests</p>
+            <a href="#" class="view-product">View product &gt;</a>
+        </div>
+        </div>
+
+        <div class="container-5">
+            <img class="img-review" src="asset/1.png" alt="">
+            <div  class="name-section">
+                <p class="name">Sedhu Raman </p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <!-- <span><img src="asset/Vector.png" alt=""></span> -->
+                <p class="comment">Absolutely in love with the poster I purchased! The colors are vibrant and the print quality is top-notch. It's the perfect addition to my home decor and always gets compliments from guests</p>
+                <a href="#" class="view-product">View product &gt;</a>
+            </div>
+            </div>
+
+        
+    </div>
+
+
+    <!-- Slide -->
+
+    <div>
+        <p class="quality-title">Picture-Perfect Picks</p>
+        <p class="quality-desc">Discover stories of artistic inspiration and personal expression from our beloved customers</p>
+    </div>
+
+
+    <div class="div-body">
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/couple.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/dog.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/grand.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/leaf.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/green.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/neon.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/male.png" alt="">
+                </div>                
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/rock.png" alt="">
+                </div>                
+
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/house.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/town.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/puffin.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/vesta.png" alt="">
+                </div>
+
+
+                <!-- Dobule the slide(copy) -->
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/couple.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/dog.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/grand.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/leaf.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/green.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/neon.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/male.png" alt="">
+                </div>                
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/rock.png" alt="">
+                </div>                
+
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/house.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/town.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/puffin.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/vesta.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div-body">
+        <div class="slider">
+            <div class="slide-track2">
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/couple.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/dog.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/grand.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/leaf.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/green.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/neon.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/male.png" alt="">
+                </div>                
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/rock.png" alt="">
+                </div>                
+
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/house.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/town.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/puffin.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/vesta.png" alt="">
+                </div>
+
+
+                <!-- Dobule the slide(copy) -->
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/couple.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/dog.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/grand.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/leaf.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/green.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/neon.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/male.png" alt="">
+                </div>                
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/rock.png" alt="">
+                </div>                
+
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/house.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/town.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/puffin.png" alt="">
+                </div>
+                <div class="slide">
+                    <img class="slide-img" src="asset/slide/slide2/vesta.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div>
+        <p class="quality-title-faq">FAQ's</p>
+        <p class="quality-desc">Find solutions to your queries and learn more about our poster shop</p>
+    </div>
+
+    <div class="faq-container">
+        <div class="faq">
+            <div class="question">  
+                <p class="faq-question">How can I place an order?</p>
+                <span class="plus">&plus;</span>
+            </div>
+            <div class="answer">
+                <p class="ans-p">
+                    Select Checkout Cart for Fresh items or Proceed to Checkout for other items. If prompted, sign in to your account or create a new account if this is your first order.
+                    Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">  
+                <p class="faq-question">What payment methods do you accept?</p>
+                <span class="plus">&plus;</span>
+            </div>
+            <div class="answer">
+                <p class="ans-p">
+                    Select Checkout Cart for Fresh items or Proceed to Checkout for other items. If prompted, sign in to your account or create a new account if this is your first order.
+                    Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">  
+                <p class="faq-question">Do you offer international shipping?</p>
+                <span class="plus">&plus;</span>
+            </div>
+            <div class="answer">
+                <p class="ans-p">
+                    Select Checkout Cart for Fresh items or Proceed to Checkout for other items. If prompted, sign in to your account or create a new account if this is your first order.
+                    Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">  
+                <p class="faq-question">Can I return or exchange a poster?</p>
+                <span class="plus">&plus;</span>
+            </div>
+            <div class="answer">
+                <p class="ans-p">
+                    Select Checkout Cart for Fresh items or Proceed to Checkout for other items. If prompted, sign in to your account or create a new account if this is your first order.
+                    Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                </p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">  
+                <p class="faq-question">How can I track my order?</p>
+                <span class="plus">&plus;</span>
+            </div>
+            <div class="answer">
+                <p class="ans-p">
+                    Select Checkout Cart for Fresh items or Proceed to Checkout for other items. If prompted, sign in to your account or create a new account if this is your first order.
+                    Enter a shipping address. Choose a shipping method.Enter your payment information. Review your order details. Order Placed!
+                </p>
+            </div>
+        </div>
+       
+
+        
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="foot-flex">
+            <div>
+                <div class="content">CONTENT</div>
+                <div class="content-p">
+                    <p>Home</p>
+                    <p>Shop</p>
+                    <p>Categories</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div>
+                <div class="content">LEGAL & SUPPORT</div>
+                <div class="content-p">
+                    <p>FAQ's</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                    <p>Returns and Refunds</p>
+                    <p>Shipping Information</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="content">FOLLOW US</p>
+                    <div class="social">
+                        <div class="fb">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_138_542)">
+                                <path d="M16.6348 8.5498C16.6348 4.05742 12.9924 0.415039 8.5 0.415039C4.00762 0.415039 0.365234 4.05742 0.365234 8.5498C0.365234 12.6105 3.34023 15.974 7.22832 16.585V10.9006H5.16309V8.5498H7.22832V6.75684C7.22832 4.71816 8.44355 3.59258 10.2996 3.59258C11.1895 3.59258 12.1191 3.75195 12.1191 3.75195V5.7541H11.0932C10.0838 5.7541 9.76836 6.38164 9.76836 7.02578V8.55313H12.0229L11.6609 10.9039H9.76504V16.5883C13.6598 15.974 16.6348 12.6105 16.6348 8.5498Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_138_542">
+                                <rect width="17" height="17" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                   
+                        </div>
+                        <div class="insta">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_138_545)">
+                                <path d="M8.49998 1.64365C10.7345 1.64365 10.9969 1.65361 11.8801 1.69346C12.6969 1.72998 13.1385 1.86611 13.434 1.98232C13.8258 2.13506 14.1047 2.31436 14.3969 2.60654C14.689 2.89873 14.8717 3.17764 15.0211 3.56943C15.134 3.86494 15.2734 4.30654 15.3099 5.12334C15.3498 6.00654 15.3597 6.26885 15.3597 8.50342C15.3597 10.738 15.3498 11.0003 15.3099 11.8835C15.2734 12.7003 15.1373 13.1419 15.0211 13.4374C14.8683 13.8292 14.689 14.1081 14.3969 14.4003C14.1047 14.6925 13.8258 14.8751 13.434 15.0245C13.1385 15.1374 12.6969 15.2769 11.8801 15.3134C10.9969 15.3532 10.7345 15.3632 8.49998 15.3632C6.2654 15.3632 6.0031 15.3532 5.1199 15.3134C4.3031 15.2769 3.8615 15.1407 3.56599 15.0245C3.17419 14.8718 2.89529 14.6925 2.6031 14.4003C2.31091 14.1081 2.1283 13.8292 1.97888 13.4374C1.86599 13.1419 1.72654 12.7003 1.69001 11.8835C1.65017 11.0003 1.64021 10.738 1.64021 8.50342C1.64021 6.26885 1.65017 6.00654 1.69001 5.12334C1.72654 4.30654 1.86267 3.86494 1.97888 3.56943C2.13162 3.17764 2.31091 2.89873 2.6031 2.60654C2.89529 2.31436 3.17419 2.13174 3.56599 1.98232C3.8615 1.86943 4.3031 1.72998 5.1199 1.69346C6.0031 1.65029 6.2654 1.64365 8.49998 1.64365ZM8.49998 0.13623C6.22888 0.13623 5.94333 0.146191 5.05017 0.186035C4.16033 0.225879 3.55271 0.368652 3.02146 0.574512C2.47029 0.787012 2.00544 1.07588 1.5406 1.54072C1.07576 2.00557 0.79021 2.47373 0.57439 3.02158C0.36853 3.55283 0.225757 4.16045 0.185913 5.05361C0.146069 5.94346 0.136108 6.229 0.136108 8.5001C0.136108 10.7712 0.146069 11.0567 0.185913 11.9499C0.225757 12.8397 0.36853 13.4474 0.57439 13.9819C0.78689 14.5331 1.07576 14.9979 1.5406 15.4628C2.00544 15.9276 2.47361 16.2132 3.02146 16.429C3.55271 16.6349 4.16033 16.7776 5.05349 16.8175C5.94666 16.8573 6.22888 16.8673 8.5033 16.8673C10.7777 16.8673 11.0599 16.8573 11.9531 16.8175C12.8429 16.7776 13.4506 16.6349 13.9851 16.429C14.5363 16.2165 15.0011 15.9276 15.466 15.4628C15.9308 14.9979 16.2164 14.5298 16.4322 13.9819C16.6381 13.4507 16.7808 12.8431 16.8207 11.9499C16.8605 11.0567 16.8705 10.7745 16.8705 8.5001C16.8705 6.22568 16.8605 5.94346 16.8207 5.05029C16.7808 4.16045 16.6381 3.55283 16.4322 3.01826C16.2197 2.46709 15.9308 2.00225 15.466 1.5374C15.0011 1.07256 14.533 0.787012 13.9851 0.571191C13.4539 0.365332 12.8463 0.222559 11.9531 0.182715C11.0566 0.146191 10.7711 0.13623 8.49998 0.13623Z" fill="white"/>
+                                <path d="M8.49998 4.20361C6.12927 4.20361 4.20349 6.12607 4.20349 8.5001C4.20349 10.8741 6.12927 12.7966 8.49998 12.7966C10.8707 12.7966 12.7965 10.8708 12.7965 8.5001C12.7965 6.12939 10.8707 4.20361 8.49998 4.20361ZM8.49998 11.2892C6.95935 11.2892 5.71091 10.0407 5.71091 8.5001C5.71091 6.95947 6.95935 5.71104 8.49998 5.71104C10.0406 5.71104 11.289 6.95947 11.289 8.5001C11.289 10.0407 10.0406 11.2892 8.49998 11.2892Z" fill="white"/>
+                                <path d="M12.9658 5.03672C13.5196 5.03672 13.9685 4.58778 13.9685 4.03398C13.9685 3.48019 13.5196 3.03125 12.9658 3.03125C12.412 3.03125 11.9631 3.48019 11.9631 4.03398C11.9631 4.58778 12.412 5.03672 12.9658 5.03672Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_138_545">
+                                <rect width="17" height="17" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                                   
+                        </div>
+                        <div class="youtube">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_138_550)">
+                                <path d="M16.6926 4.4877C16.4851 3.58505 15.7468 2.91926 14.8581 2.82019C11.9289 2.49289 5.11162 2.48897 2.14682 2.82019C1.25829 2.91926 0.520253 3.58505 0.312475 4.4877C-0.1053 6.30698 -0.101947 10.7236 0.309264 12.5118C0.516711 13.4146 1.2547 14.0801 2.14342 14.1795C5.07266 14.5068 11.8899 14.5107 14.8547 14.1795C15.7432 14.0801 16.4816 13.4146 16.6894 12.5118C17.1004 10.7224 17.1056 6.28417 16.6926 4.4877ZM6.84737 10.0064V6.99317C6.84737 6.45748 7.42726 6.12267 7.89122 6.39052L10.5008 7.89719C10.9647 8.16503 10.9647 8.83465 10.5008 9.10249L7.89122 10.609C7.42726 10.8769 6.84737 10.5421 6.84737 10.0064Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_138_550">
+                                <rect width="17" height="17" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                                   
+                        </div>
+                        <div class="linkedin">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_138_553)">
+                                <path d="M14.4832 14.4866H11.9631V10.5387C11.9631 9.59909 11.9465 8.38717 10.6516 8.38717C9.34004 8.38717 9.1375 9.41315 9.1375 10.469V14.4833H6.61738V6.37174H9.03457V7.48073H9.06777C9.31016 7.06569 9.65879 6.72702 10.0805 6.4946C10.5021 6.26549 10.977 6.1526 11.4551 6.1692C14.0084 6.1692 14.4799 7.84928 14.4799 10.034L14.4832 14.4866ZM3.78184 5.26276C3.49297 5.26276 3.21074 5.17643 2.96836 5.01706C2.7293 4.85768 2.54004 4.62858 2.43047 4.35963C2.3209 4.09069 2.29102 3.7985 2.34746 3.51627C2.40391 3.23405 2.54336 2.97174 2.7459 2.7692C2.95176 2.56335 3.21074 2.42389 3.49297 2.36745C3.7752 2.311 4.0707 2.34088 4.33633 2.45045C4.60195 2.56002 4.83105 2.74928 4.99375 2.98835C5.15312 3.22741 5.23945 3.50963 5.23945 3.80182C5.23945 3.9944 5.20293 4.18366 5.12988 4.35963C5.05684 4.53561 4.94727 4.69831 4.81445 4.83444C4.67832 4.97057 4.51895 5.07682 4.33965 5.14987C4.16367 5.22624 3.97441 5.26276 3.78184 5.26276ZM5.04023 14.4866H2.52012V6.37174H5.04023V14.4866ZM15.7416 6.39082e-05H1.25508C0.926367 -0.0032564 0.610937 0.122915 0.375195 0.352017C0.139453 0.581119 0.00332031 0.896548 0 1.22526V15.7715C0.00332031 16.1003 0.139453 16.4157 0.371875 16.6448C0.607617 16.8739 0.923047 17.0034 1.25176 17.0001H15.7383C16.067 17.0034 16.3857 16.8772 16.6215 16.6481C16.8572 16.419 16.9934 16.1036 16.9967 15.7749V1.22526C16.9934 0.896548 16.8572 0.581119 16.6215 0.352017C16.3857 0.122915 16.0703 -0.0032564 15.7416 6.39082e-05Z" fill="white"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_138_553">
+                                <rect width="17" height="17" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg>
+                                
+                                   
+                        </div>
+                       
+                        
+                        
+                    </div>
+                    <div class="sub">
+                        <p>Subscribe to our newsletter for updates <br>
+                            and exclusive offers</p>
+                        <div class="inpBtn-same"><input class="inp" type="text" placeholder="Your Email" name="" id="">
+                        <button class="inp-btn" >Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright-content">
+            <img src="asset/logo2.png" alt="">
+            <p>Copyright © 2024 Designwaves. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="faq.js"></script>
+</body>
+</html>
